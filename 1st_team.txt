@@ -1,0 +1,35 @@
+
+
+Teams 
+
+1st Team lead ALWAYS creates Repository 
+2nd Team Lead finds the team members on git hub and invites them to the team 
+3rd. Team members accept/denies there invitation 
+4th Team members now have access to the master branch and can add new branches ( Team Lead can create new branches for team members too ) 
+
+This is how a you should start with a new team 
+Create a new file on your desktop/local machine. 
+right click on it and go to bash / or go to code editior and open folder than open bash. 
+
+Now your inside bash click the following. 
+
+kozjohn@CND82594SC MINGW64 ~/Desktop/sept29 (master)
+$ git init
+Initialized empty Git repository in C:/Users/kozjohn/Desktop/sept29/.git/
+
+kozjohn@CND82594SC MINGW64 ~/Desktop/sept29 (master)
+$ git remote add origin  https://github.com/instructorc/CWEB1111Fall2018.git ( you get that address by going to repository on git hub and 
+looking for that green clone / download button) 
+
+After you clone/download that file you will look like nothing happened. Basically like it does below. 
+
+
+kozjohn@CND82594SC MINGW64 ~/Desktop/sept29 (master)  
+$
+
+kozjohn@CND82594SC MINGW64 ~/Desktop/sept29 (master)
+$ git pull origin nick_about         ( If the Team Lead has already created a branch for you the Next step is to pull branch down ) 
+									  ( You have pulled the branch down . But you need to switch into that branch now )  
+
+kozjohn@CND82594SC MINGW64 ~/Desktop/sept29 (master)
+$ git checkout nick_about                ( again make sure after you have pull origin my_branch that you switch to your branch by typing checkout ) 
